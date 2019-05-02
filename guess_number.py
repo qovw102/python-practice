@@ -1,6 +1,10 @@
 #random number practice, game of guess number
 import random
-r = random.randint(1,100)
+start = input('Please enter start number')
+end = input('Please enter end number')
+start = int(start)
+end = int(end)
+r = random.randint(start,end)
 count = 0
 while True:
     count += 1
