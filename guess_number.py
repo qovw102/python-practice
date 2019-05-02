@@ -8,6 +8,7 @@ while True:
     num = int(num)
     if num == r:
         print('Good Job!')
+        print(count, 'times guess')
         break
     elif num > r:
         print('number is bigger than answer')
